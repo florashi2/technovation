@@ -204,3 +204,4 @@ Received Import Request.
 Start importing Assets/Scenes/characters/player4.PNG using Guid(0bf9ac9893ddc5d4dac269381a151129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc49b6c8e30c70a646d0ce1814fcd2d') in 0.034492 seconds 
   Import took 0.039780 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
