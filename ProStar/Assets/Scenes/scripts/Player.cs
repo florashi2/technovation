@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    private Vector2 tragetPos;
+    public float Yincrement;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +15,8 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.UpArrow) )
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+        }
     }
 }
