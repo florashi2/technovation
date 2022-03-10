@@ -180,3 +180,4 @@ Received Import Request.
 Start importing Assets/Scenes/characters/Obstacle1.PNG using Guid(63d15b2c3e351a94aa1d3dec4d2648bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b1572ab2fc71c9e7929fdfebdcfd54') in 0.039772 seconds 
   Import took 0.045252 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
