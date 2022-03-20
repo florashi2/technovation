@@ -12,9 +12,11 @@ GameObject:
   - component: {fileID: 2317651263959436482}
   - component: {fileID: 2317651263959436481}
   - component: {fileID: 2317651263959436540}
+  - component: {fileID: -3039941310958941157}
+  - component: {fileID: -8979513175424961015}
   m_Layer: 0
   m_Name: Obstacle1
-  m_TagString: Untagged
+  m_TagString: Obstacle1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124,3 +126,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   speed: 1
+  effect: {fileID: 2332023749623802988, guid: 54d4ab4003b51f44aa3ed180af421860, type: 3}
+--- !u!114 &-3039941310958941157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2317651263959436480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2076c48b6b2f4fd4c9aac6f292178dea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-8979513175424961015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2317651263959436480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2076c48b6b2f4fd4c9aac6f292178dea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

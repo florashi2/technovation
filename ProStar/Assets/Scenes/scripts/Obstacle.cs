@@ -7,6 +7,7 @@ public class Obstacle : MonoBehaviour
     public int damage = 1;
     public float speed;
 
+    public GameObject effect;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +26,9 @@ public class Obstacle : MonoBehaviour
       if (other.CompareTag("Player"))
         {
             // player takes damage!
+
+            Instantiate(effect, transform.position, Quaternion.identity);
+            
             other.GetComponent<Player>().health -= damage;
             Debug.Log(other.GetComponent<Player>().health);
             Destroy(gameObject);
