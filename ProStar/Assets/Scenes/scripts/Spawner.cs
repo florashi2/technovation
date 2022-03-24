@@ -21,7 +21,7 @@ public class Spawner : MonoBehaviour
     {
         if (timeBtwSpawn <= 0)
         {
-            int rand = Random.Range(0, obstaclePatterns.Length-1);
+            int rand = Random.Range(0, obstaclePatterns.Length);
             Instantiate(obstaclePatterns[rand], transform.position, Quaternion.identity);
             timeBtwSpawn = startTimeBtwSpawn;
             if (startTimeBtwSpawn > minTime) { 
