@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class Player : MonoBehaviour
     public float maxHeight;
     public float minHeight;
     public int health = 3;
+    public Text healthDisplay;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +21,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        healthDisplay.text = health.ToString();
         transform.position = Vector2.MoveTowards(transform.position, targetPos, speed* Time.deltaTime);
         if (Input.GetKeyDown(KeyCode.UpArrow) && transform.position.y < maxHeight)
         {

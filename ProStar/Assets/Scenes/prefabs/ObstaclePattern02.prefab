@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6146511532465116977
+--- !u!1 &4152713270608037498
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5824159141452296204}
-  - component: {fileID: 5674133145185236064}
+  - component: {fileID: 4152713270608037499}
+  - component: {fileID: 4152713270608037492}
   m_Layer: 0
   m_Name: SpawnPoint02
   m_TagString: Untagged
@@ -17,34 +17,34 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5824159141452296204
+--- !u!4 &4152713270608037499
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6146511532465116977}
+  m_GameObject: {fileID: 4152713270608037498}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.6, y: 0.41, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6831971822872262868}
+  m_Father: {fileID: 4152713271626022107}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5674133145185236064
+--- !u!114 &4152713270608037492
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6146511532465116977}
+  m_GameObject: {fileID: 4152713270608037498}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0dacfc091e77f8940838d05db099d7f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obstacle: {fileID: 2317651263959436480, guid: eff4886d2ed61444a9260126450393ec, type: 3}
---- !u!1 &8917989218091649652
+  obstacle: {fileID: 1968175321601593027, guid: c38fbe676073e54448ddc139fb966015, type: 3}
+--- !u!1 &4152713270674946279
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -52,8 +52,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4162938359844323716}
-  - component: {fileID: 7712111212767080678}
+  - component: {fileID: 4152713270674946272}
+  - component: {fileID: 4152713270674946273}
   m_Layer: 0
   m_Name: SpawnPoint01
   m_TagString: Untagged
@@ -61,34 +61,34 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4162938359844323716
+--- !u!4 &4152713270674946272
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8917989218091649652}
+  m_GameObject: {fileID: 4152713270674946279}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.82, z: 0}
+  m_LocalPosition: {x: 0.6, y: 4.57, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6831971822872262868}
+  m_Father: {fileID: 4152713271626022107}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7712111212767080678
+--- !u!114 &4152713270674946273
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8917989218091649652}
+  m_GameObject: {fileID: 4152713270674946279}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0dacfc091e77f8940838d05db099d7f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obstacle: {fileID: 2317651263959436480, guid: eff4886d2ed61444a9260126450393ec, type: 3}
---- !u!1 &9022395165282190906
+  obstacle: {fileID: 1968175321601593027, guid: c38fbe676073e54448ddc139fb966015, type: 3}
+--- !u!1 &4152713271626022106
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -96,7 +96,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6831971822872262868}
+  - component: {fileID: 4152713271626022107}
   m_Layer: 0
   m_Name: ObstaclePattern02
   m_TagString: Untagged
@@ -104,19 +104,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6831971822872262868
+--- !u!4 &4152713271626022107
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9022395165282190906}
+  m_GameObject: {fileID: 4152713271626022106}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 15.16, y: -1.14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4162938359844323716}
-  - {fileID: 5824159141452296204}
+  - {fileID: 4152713270674946272}
+  - {fileID: 4152713270608037499}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
