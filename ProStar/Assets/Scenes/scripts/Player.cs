@@ -12,6 +12,8 @@ public class Player : MonoBehaviour
     public float minHeight;
     public int health = 3;
     public Text healthDisplay;
+    public Text scoreDisplay;
+    public int score = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +24,7 @@ public class Player : MonoBehaviour
     void Update()
     {
         healthDisplay.text = health.ToString();
+        scoreDisplay.text = score.ToString();
         transform.position = Vector2.MoveTowards(transform.position, targetPos, speed* Time.deltaTime);
         if (Input.GetKeyDown(KeyCode.UpArrow) && transform.position.y < maxHeight)
         {
