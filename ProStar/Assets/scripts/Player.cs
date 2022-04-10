@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -23,8 +24,13 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        healthDisplay.text = health.ToString();
-        scoreDisplay.text = score.ToString();
+       if (health <= 0)
+        {
+            SceneManager.LoadScene("GameOverScene");
+        }
+
+        healthDisplay.text = "HP "+health.ToString();
+        scoreDisplay.text = "PT "+score.ToString();
         transform.position = Vector2.MoveTowards(transform.position, targetPos, speed* Time.deltaTime);
         if (Input.GetKeyDown(KeyCode.UpArrow) && transform.position.y < maxHeight)
         {
