@@ -1084,6 +1084,7 @@ MonoBehaviour:
   - {fileID: 2665554715955525633, guid: f166fe570c941b647946367b9c99bb84, type: 3}
   - {fileID: 9135505340016876436, guid: 5991b55d70d401742995336c7b0def06, type: 3}
   - {fileID: 7459549392739902772, guid: 86081bd5d16ec0e49aed14cebddc57e3, type: 3}
+  - {fileID: 2755542168880922124, guid: 16934692878c9a44d91df8190070fa9e, type: 3}
   startTimeBtwSpawn: 5
   decreaseTime: 0.2
   minTime: 1
