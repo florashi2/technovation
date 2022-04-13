@@ -138,4 +138,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   point: 1
   speed: 8
-  effect: {fileID: 2332023749623802988, guid: 54d4ab4003b51f44aa3ed180af421860, type: 3}
+  effect: {fileID: 2641815184778178413, guid: fb905a6b63e60a147b466dafbbb49dd5, type: 3}
